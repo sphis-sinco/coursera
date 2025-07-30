@@ -73,7 +73,7 @@ int main(void)
         date thedate = {
             january,
             15};
-        print_date(thedate);
+        print_date(thedate.m, thedate.d);
 
         return 0;
 }
