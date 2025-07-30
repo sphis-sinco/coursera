@@ -18,7 +18,7 @@ typedef enum month
 typedef struct date
 {
         month m;
-        int d
+        int d;
 } date;
 
 void print_date(month m, int d)
@@ -65,7 +65,7 @@ void print_date(month m, int d)
         default:
                 printf("%d", m);
         }
-        printf(" %lf", d);
+        printf(" %i", d);
 }
 
 int main(void)
